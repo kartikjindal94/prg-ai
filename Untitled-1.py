@@ -1,0 +1,7 @@
+a=input("Enter the first number:")
+b=input("Enter the second number:")
+c=int(a)
+d=int(b)
+print(type(a))
+print(type(b))
+print(c+d)

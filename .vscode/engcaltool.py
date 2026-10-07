@@ -1,0 +1,10 @@
+first_num=float(input("Enter First Number:"))
+second_num=float(input("Enter Second Number:"))
+import math as m
+print(first_num,"^",second_num,"=",m.pow(first_num,second_num))
+print("Square Root of",first_num,"=",m.sqrt(first_num))
+print("Ceil of",first_num,"/",second_num,"=",m.ceil(first_num/second_num))
+print("Floor of",first_num,"/",second_num,"=",m.floor(first_num/second_num))
+print("Absolute difference:",abs(first_num-second_num))
+print("Area of circle with radius",first_num,"=",m.pi*(first_num**2))
+print("Hypotenuse:",m.hypot(first_num,second_num))
